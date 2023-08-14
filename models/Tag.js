@@ -13,7 +13,7 @@ Tag.init(
       primaryKey: true,
       autoIncrement: true
     },
-    // from tag-seeds.js ingo (tag_name)
+    // from guidelines and tag-seeds.js info (tag_name) 
     tag_name: {
       type: DataTypes.STRING
     }

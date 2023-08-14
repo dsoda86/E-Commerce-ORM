@@ -13,7 +13,7 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true
     },
-    // from froduct-tag-seeds.js info (product_id, tag_id)
+    // from guidelines and product-tag-seeds.js info (product_id, tag_id)
     product_id: {
       type: DataTypes.INTEGER,
       references: {

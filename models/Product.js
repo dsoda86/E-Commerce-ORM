@@ -16,7 +16,7 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    // from product-seeds.js info (product_name, price, stock, category_id)
+    // from guidelines product-seeds.js info (product_name, price, stock, category_id)
     product_name: {
       type: DataTypes.STRING,
       allowNull: false,

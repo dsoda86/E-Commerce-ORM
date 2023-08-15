@@ -22,7 +22,8 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL,
+      // Added precision and scale to DataTypes.DECIMAL to show actual price instead of rounded price when using insomnia
+      type: DataTypes.DECIMAL(10,2),
       allowNull: false,
       validate: {
         isDecimal: true
